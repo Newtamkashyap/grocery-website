@@ -4,11 +4,11 @@ import './App.css';
 
 function App() {
   const groceryItems = [
-    { id: 1, name: 'Apple', price: 1.2, image: 'apple.jpg' },
-    { id: 2, name: 'Banana', price: 0.5, image: 'banana.jpg' },
+    { id: 1, name: 'Apple', price: 1.2, image: 'apple.webp' },
+    { id: 2, name: 'Banana', price: 0.5, image: 'banana.webp' },
     { id: 3, name: 'Carrot', price: 0.8, image: 'carrot.jpg' },
-    { id: 4, name: 'Milk', price: 1.5, image: 'milk.jpg' },
-    { id: 5, name: 'Bread', price: 2.0, image: 'bread.jpg' }
+    { id: 4, name: 'Milk', price: 1.5, image: 'milk.webp' },
+    { id: 5, name: 'Bread', price: 2.0, image: 'bread.webp' }
   ];
 
   const [cart, setCart] = useState([]);
